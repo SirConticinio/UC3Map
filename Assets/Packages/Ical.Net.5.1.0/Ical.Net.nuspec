@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Ical.Net</id>
+    <version>5.1.0</version>
+    <title>Ical.Net</title>
+    <authors>ical-org maintainers and contributors</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <icon>assets/icon.png</icon>
+    <readme>assets/readme.md</readme>
+    <projectUrl>https://github.com/ical-org/ical.net</projectUrl>
+    <description>The most popular iCalendar (RFC 5545) class library for .NET.</description>
+    <releaseNotes>https://github.com/ical-org/ical.net/blob/main/release-notes.md</releaseNotes>
+    <copyright>Copyright 2007-2025 ical-org</copyright>
+    <tags>iCal Calendar icalendar ics outlook events rfc-5545 rfc-2445</tags>
+    <repository type="git" commit="97e304706a5fa6194a5789fc8e52363cc1f33d8c" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="NodaTime" version="3.2.2" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net8.0">
+        <dependency id="NodaTime" version="3.2.2" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="NodaTime" version="3.2.2" exclude="Build,Analyzers" />
+        <dependency id="Portable.System.DateTimeOnly" version="9.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="NodaTime" version="3.2.2" exclude="Build,Analyzers" />
+        <dependency id="Portable.System.DateTimeOnly" version="9.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

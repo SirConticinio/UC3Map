@@ -1,0 +1,4 @@
+﻿public enum FILETYPE
+{
+    ZIP_AND_JSON_AND_ICS, ZIP, OBJ, ICS, ANY
+}
